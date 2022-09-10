@@ -7,19 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65BFED4628BD33A1003933F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFED4528BD33A1003933F8 /* AppDelegate.swift */; };
-		65BFED4828BD33A1003933F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFED4728BD33A1003933F8 /* ViewController.swift */; };
 		65BFED4A28BD33A2003933F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BFED4928BD33A2003933F8 /* Assets.xcassets */; };
-		65BFED4D28BD33A2003933F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BFED4B28BD33A2003933F8 /* Main.storyboard */; };
+		65BFED5A28BD33FD003933F8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFED5528BD33FD003933F8 /* Utils.swift */; };
+		65BFED5B28BD33FD003933F8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFED5628BD33FD003933F8 /* SettingsViewController.swift */; };
+		65BFED5C28BD33FD003933F8 /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFED5728BD33FD003933F8 /* DropView.swift */; };
+		65BFED5D28BD33FD003933F8 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFED5828BD33FD003933F8 /* StatusMenuController.swift */; };
+		65BFED5F28BD34E8003933F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BFED5E28BD34E8003933F8 /* Main.storyboard */; };
+		65CC8D9B28C3DC7F00DF0B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC8D9A28C3DC7F00DF0B53 /* AppDelegate.swift */; };
+		65CC8D9F28C4FB4300DF0B53 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC8D9E28C4FB4300DF0B53 /* Settings.swift */; };
+		65E2814028BD35C4005F4ED5 /* TimerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E2813F28BD35C4005F4ED5 /* TimerAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6595CA9128C652E70062186C /* Sweet-Dreams-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sweet-Dreams-Info.plist"; sourceTree = SOURCE_ROOT; };
 		65BFED4228BD33A1003933F8 /* Sweet Dreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sweet Dreams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65BFED4528BD33A1003933F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65BFED4728BD33A1003933F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65BFED4928BD33A2003933F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		65BFED4C28BD33A2003933F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65BFED4E28BD33A2003933F8 /* Sweet_Dreams.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sweet_Dreams.entitlements; sourceTree = "<group>"; };
+		65BFED5528BD33FD003933F8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		65BFED5628BD33FD003933F8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		65BFED5728BD33FD003933F8 /* DropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		65BFED5828BD33FD003933F8 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		65BFED5E28BD34E8003933F8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		65CC8D9A28C3DC7F00DF0B53 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65CC8D9E28C4FB4300DF0B53 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		65E2813F28BD35C4005F4ED5 /* TimerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +63,16 @@
 		65BFED4428BD33A1003933F8 /* Sweet Dreams */ = {
 			isa = PBXGroup;
 			children = (
-				65BFED4528BD33A1003933F8 /* AppDelegate.swift */,
-				65BFED4728BD33A1003933F8 /* ViewController.swift */,
+				6595CA9128C652E70062186C /* Sweet-Dreams-Info.plist */,
+				65CC8D9A28C3DC7F00DF0B53 /* AppDelegate.swift */,
+				65BFED5628BD33FD003933F8 /* SettingsViewController.swift */,
+				65CC8D9E28C4FB4300DF0B53 /* Settings.swift */,
+				65BFED5828BD33FD003933F8 /* StatusMenuController.swift */,
+				65E2813F28BD35C4005F4ED5 /* TimerAction.swift */,
+				65BFED5528BD33FD003933F8 /* Utils.swift */,
+				65BFED5728BD33FD003933F8 /* DropView.swift */,
 				65BFED4928BD33A2003933F8 /* Assets.xcassets */,
-				65BFED4B28BD33A2003933F8 /* Main.storyboard */,
+				65BFED5E28BD34E8003933F8 /* Main.storyboard */,
 				65BFED4E28BD33A2003933F8 /* Sweet_Dreams.entitlements */,
 			);
 			path = "Sweet Dreams";
@@ -119,8 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65BFED5F28BD34E8003933F8 /* Main.storyboard in Resources */,
 				65BFED4A28BD33A2003933F8 /* Assets.xcassets in Resources */,
-				65BFED4D28BD33A2003933F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,23 +148,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65BFED4828BD33A1003933F8 /* ViewController.swift in Sources */,
-				65BFED4628BD33A1003933F8 /* AppDelegate.swift in Sources */,
+				65CC8D9B28C3DC7F00DF0B53 /* AppDelegate.swift in Sources */,
+				65BFED5B28BD33FD003933F8 /* SettingsViewController.swift in Sources */,
+				65BFED5A28BD33FD003933F8 /* Utils.swift in Sources */,
+				65E2814028BD35C4005F4ED5 /* TimerAction.swift in Sources */,
+				65CC8D9F28C4FB4300DF0B53 /* Settings.swift in Sources */,
+				65BFED5D28BD33FD003933F8 /* StatusMenuController.swift in Sources */,
+				65BFED5C28BD33FD003933F8 /* DropView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		65BFED4B28BD33A2003933F8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65BFED4C28BD33A2003933F8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		65BFED4F28BD33A2003933F8 /* Debug */ = {
@@ -275,6 +286,7 @@
 				DEVELOPMENT_TEAM = J7CHKBB62N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sweet-Dreams-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -282,6 +294,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.pihsrawnaissurkcuf.Sweet-Dreams";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +315,7 @@
 				DEVELOPMENT_TEAM = J7CHKBB62N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sweet-Dreams-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -309,6 +323,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.pihsrawnaissurkcuf.Sweet-Dreams";
 				PRODUCT_NAME = "$(TARGET_NAME)";
