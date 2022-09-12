@@ -50,6 +50,8 @@ class StatusMenuController {
         statusItem.button?.action = #selector(self.statusBarButtonClicked(_:))
         statusItem.button?.sendAction(on: [.leftMouseDown, .rightMouseUp])
         popover.behavior = .transient
+        
+        settings.monitoringType = .byBrowser
     }
     
     @objc func statusBarButtonClicked(_ sender: NSStatusBarButton) {
@@ -70,9 +72,16 @@ class StatusMenuController {
         guard let actionTitle = statusDelegate?.monitoringStatus.rawValue else {
             return
         }
-        let actionItem = NSMenuItem(title: "\(actionTitle)", action: #selector(toggleAction(_:)), keyEquivalent: "s")
-        actionItem.target = self
-        menu.addItem(actionItem)
+        
+        if settings.countdownInterval != 0.0 || settings.monitoringType == .byBrowser || settings.monitoringType == .byCalendar {
+            let actionItem = NSMenuItem(title: "💤 \(actionTitle)", action: #selector(toggleAction(_:)), keyEquivalent: "s")
+            actionItem.target = self
+            menu.addItem(actionItem)
+        } else {
+            let warningItem = NSMenuItem(title: "⚠️ Set Timer in Settings", action: #selector(togglePopover(_:)), keyEquivalent: "")
+            warningItem.target = self
+            menu.addItem(warningItem)
+        }
         
         menu.addItem(NSMenuItem.separator())
         menu.addItem(NSMenuItem(title: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))

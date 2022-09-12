@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "cat-black-8.pdf",
+      "filename" : "Untitled-17.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -12,7 +12,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "cat-black-3.pdf",
+      "filename" : "Untitled-16.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -23,12 +23,12 @@
           "value" : "dark"
         }
       ],
-      "filename" : "emojisky.com-15309070.png",
+      "filename" : "Untitled-13.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "cat-black-9.pdf",
+      "filename" : "Untitled-18.pdf",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -39,18 +39,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "cat-black-4.pdf",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "light"
-        }
-      ],
-      "filename" : "gat4-3.png",
+      "filename" : "Untitled-15.pdf",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -61,22 +50,12 @@
           "value" : "dark"
         }
       ],
-      "filename" : "emojisky.com-11176820.png",
+      "filename" : "Untitled-12.pdf",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "cat-black-10.pdf",
+      "filename" : "Untitled-19.pdf",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -87,7 +66,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "cat-black-5.pdf",
+      "filename" : "Untitled-20.pdf",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -98,7 +77,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "emojisky.com-15309071.png",
+      "filename" : "Untitled-14.pdf",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -109,7 +88,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "emojisky.com-15309068.png",
+      "filename" : "Untitled-11.pdf",
       "idiom" : "universal",
       "scale" : "2x",
       "unassigned" : true
